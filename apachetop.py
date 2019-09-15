@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 
-# apache-top
+# apachetop
 # Copyright (C) 2006  Carles AmigÃ³
 # 
 # This program is free software; you can redistribute it and/or
@@ -31,7 +31,7 @@ import time
 
 class ApacheStatusParser(HTMLParser):
     """
-    Clase que parseja la sortida del handler server-status de apache
+    Clase que analiza la clasificación del controlador del estado del servidor de apache
     """
     
     performance_info = 2
@@ -40,8 +40,8 @@ class ApacheStatusParser(HTMLParser):
     
     status = 0
     
-    store = False # defineix si el contingut s'ha de guardar o no
-    append = False # defineix si els seguents caracters s'han d'afegir o posar en un altre camp
+    store = False # define si el contenido se debe guardar o no
+    append = False # define si los siguientes caracteres se han de añadir o poner en otro campo
 
     performance_info_data = []
     scoreboard_data = []
