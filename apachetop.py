@@ -300,9 +300,9 @@ def main(url, stdscr):
     """Shows the actual status of the Apache web server using the server-status 
 url. It needs the ExtendedStatus flag
     
-    Usage: apache-top -u url
-        -u url    Url where apache-status is located
-		  Example: apache-top.py -u http://www.domain.com/server-status
+    Usage: apachetop -u url
+        -u url    Url where apache status is located
+		  Example: apachetop.py -u http://www.domain.com/server-status
 
 
     Interactive keys:
